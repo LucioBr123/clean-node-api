@@ -5,11 +5,14 @@
         "node": true
     },
     "extends": [
-        "standard"
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "overrides": [
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": 14
+        "ecmaVersion": "latest"
     },
     "plugins": [
         "@typescript-eslint"
